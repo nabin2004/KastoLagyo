@@ -1,5 +1,6 @@
 "use client"
 import { Button, Input, Card, Pagination } from "antd";
+import { PlusOutlined } from "@ant-design/icons"; 
 import { useState } from "react"; // Import useState for managing state
 
 export default function Dashboard() {
@@ -35,7 +36,7 @@ export default function Dashboard() {
     <div className="p-6 h-full">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-semibold">Spaces</h2>
-        <Button>Create a new space</Button>
+        <Button color="danger" icon={<PlusOutlined />}>Create a new space</Button>
       </div>
       <div className="flex mt-2">
         <Input placeholder="Search testimonials" />
@@ -48,7 +49,6 @@ export default function Dashboard() {
             title={card.title}
             extra={<a href="#">More</a>}
             hoverable={true}
-            
           >
             <p>Card content</p>
             <p>Card content</p>
