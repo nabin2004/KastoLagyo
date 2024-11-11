@@ -5,7 +5,7 @@ import FormSubmit from '@/app/testimonial/page'
 export default function Home() {
   return (
     <div className="">
-        {/* <Dashboard /> */}
+        <Dashboard />
         {/* <CreateForm/> */}
         <FormSubmit />
     </div>
