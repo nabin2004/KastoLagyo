@@ -3,13 +3,9 @@ import React from 'react';
 import { PlusOutlined } from '@ant-design/icons'; 
 import {
     Button,
-    Cascader,
     ColorPicker,
     Form,
     Input,
-    InputNumber,
-    Radio,
-    Rate,
     Select,
     Upload,
     Checkbox,
